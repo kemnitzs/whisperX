@@ -299,6 +299,7 @@ def load_model(whisper_arch,
 
     default_asr_options =  {
         "beam_size": 5,
+        "hotwords": None,
         "best_of": 5,
         "patience": 1,
         "length_penalty": 1,
